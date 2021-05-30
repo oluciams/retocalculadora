@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+main {
+    background-color: rgb(219, 209, 209) ;
+    width: 40%;
+    height: 100vh;
+    border: 2px solid chartreuse;
+    margin: 0 auto;    
+}
+
+.result {
+    width: 80%;
+    border: 1px solid black;
+    height: 15vh;    
+    margin: 0 auto; 
+    margin-top: 10vh;   
+}
+
+.elements {
+    width: 80%;
+    border: 1px solid black;
+    height: 60vh;    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element {
+    width: 25%;
+    border: 1px solid black;
+    height: 20%;  
+}
+
+.element-double {
+    width: 50%;  
+}
