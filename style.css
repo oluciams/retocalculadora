@@ -17,6 +17,7 @@ main {
 .result {
     width: 80%;
     border: 1px solid black;
+    background-color: rgb(53, 50, 50);
     height: 15vh;    
     margin: 0 auto; 
     margin-top: 10vh;   
@@ -25,7 +26,10 @@ main {
 .elements {
     width: 80%;
     border: 1px solid black;
-    height: 60vh;    
+    height: 60vh; 
+    color: white; 
+    font-size: 2rem; 
+    text-align: center; 
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -38,5 +42,18 @@ main {
 }
 
 .element-double {
-    width: 50%;  
+    width: 50%; 
+    text-align: left; 
+}
+
+.element.oper{
+    background-color: orange;
+}
+
+.element.bor{
+    background-color: rgba(70, 66, 59, 0.856);
+}
+
+.element.num {
+    background-color: rgba(134, 133, 128, 0.856);
 }
